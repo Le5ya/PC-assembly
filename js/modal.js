@@ -14,14 +14,8 @@ close.style.cssText = `
     height: 40px;
 		margin-left: 250px;
 		margin-top: -30px;
-		cursor: pointer;
-		
-	
-
-		
-	`
-
-
+		cursor: pointer;	
+	`;
 
 modalBtn.addEventListener('click', () => {
 	modal.style.display = 'flex'
