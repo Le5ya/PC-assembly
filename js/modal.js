@@ -19,8 +19,6 @@ close.style.cssText = `
 
 modalBtn.addEventListener('click', () => {
 	modal.style.display = 'flex'
-
-
 })
 courseButton.addEventListener('click', () => {
 	modal.style.display = 'flex'
