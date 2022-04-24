@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const modalBtn = document.querySelector('.modal__button')
 const modal = document.querySelector('.modal')
 const courseButton = document.querySelector('.course__button')
@@ -42,11 +42,6 @@ closeImg.addEventListener('click', (event) => {
 
 })
 
-=======
-const modalBtn = document.querySelector('.modal__button')
-const modal = document.querySelector('.modal')
-const courseButton = document.querySelector('.course__button')
-const modalInner = document.querySelector('.modal__inner')
 
 const close = document.createElement('div')
 modalInner.prepend(close)
@@ -80,4 +75,4 @@ close.addEventListener('click', (event) => {
 
 })
 
->>>>>>> b7f903a779a3b101673d42401fbd097e7e4e1158
+
