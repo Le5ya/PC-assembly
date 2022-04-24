@@ -16,7 +16,7 @@ closeImg.style.cssText = `
 	height: 40px;
 	margin-left: 100%;
 	margin-top: -30px;
-	background-image: url(../img/close.svg);
+	background-image: url(img/close.svg);
 	background-repeat: no-repeat;
 	background-size: content;
 	border-radius: 50%;
