@@ -14,7 +14,7 @@ console.log(modalInner);
 closeImg.style.cssText = `
 	width: 40px;
 	height: 40px;
-	margin-left: 400px;
+	margin-left: 100%;
 	margin-top: -30px;
 	background-image: url(../img/close.svg);
 	background-repeat: no-repeat;
