@@ -10,19 +10,19 @@ const closeImg = document.createElement('img')
 closeImg.classList.add('close')
 
 modalInner.prepend(closeImg)
-console.log(modalInner);
+
 closeImg.style.cssText = `
 	width: 40px;
 	height: 40px;
 	margin-left: 100%;
 	margin-top: -30px;
-	background-image: url(img/close.svg);
+	background-image: url('../img/close.svg');
 	background-repeat: no-repeat;
 	background-size: content;
-	border-radius: 50%;
-	border: 2px solid #fff;
 	cursor: pointer;	
 	`;
+//border - radius: 50 %;
+//border: 2px solid #fff;
 
 modalBtn.addEventListener('click', () => {
 	modal.style.display = 'flex'
