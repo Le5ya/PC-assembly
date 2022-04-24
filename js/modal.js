@@ -3,17 +3,23 @@ const modal = document.querySelector('.modal')
 const courseButton = document.querySelector('.course__button')
 const modalInner = document.querySelector('.modal__inner')
 
-const close = document.createElement('div')
-modalInner.prepend(close)
+//const close = document.createElement('div')
+const closeImg = document.createElement('img')
 
-close.style.cssText = `
-	content: '';
-	background-image: url('../img/close.svg');
-	background-repeat: no-repeat;
+closeImg.classList.add('close')
+
+modalInner.prepend(closeImg)
+console.log(modalInner);
+closeImg.style.cssText = `
 	width: 40px;
 	height: 40px;
 	margin-left: 250px;
 	margin-top: -30px;
+	background-image: url(../img/close.svg);
+	background-repeat: no-repeat;
+	background-size: content;
+	border-radius: 50%;
+	border: 2px solid #fff;
 	cursor: pointer;	
 	`;
 
@@ -30,7 +36,7 @@ modal.addEventListener('click', (event) => {
 		modal.style.display = ''
 	}
 })
-close.addEventListener('click', (event) => {
+closeImg.addEventListener('click', (event) => {
 	modal.style.display = ''
 
 })
