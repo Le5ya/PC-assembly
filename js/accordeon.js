@@ -12,9 +12,10 @@ const accordeon = () => {
 		title.addEventListener('click', () => {
 			contentsDescr.forEach((tab) => {
 				if (tab === descr) {
-					tab.style.heght = tad.scrollHeight + 'px'
+					//tab.classList.add('active')
+					tab.style.height = tab.scrollHeight + 'px'
 				} else {
-					tab.style.heght = 0
+					tab.classList.remove('active')
 				}
 			})
 		})
