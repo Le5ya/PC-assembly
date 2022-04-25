@@ -3,7 +3,7 @@ const modal = () => {
 	const modalBtn = document.querySelector('.modal__button')
 	const modal = document.querySelector('.modal')
 	const modalInner = modal.querySelector('.modal__inner')
-	//const courseButton = document.querySelector('.course__button')
+	const courseButton = document.querySelector('.course__button')
 
 	//const closeImg = document.createElement('div')
 
@@ -52,9 +52,9 @@ const modal = () => {
 	modalBtn.addEventListener('click', () => {
 		modal.style.display = 'flex'
 	})
-	//courseButton.addEventListener('click', () => {
-	//	modal.style.display = 'flex'
-	//})
+	courseButton.addEventListener('click', () => {
+		modal.style.display = 'flex'
+	})
 	modal.addEventListener('click', (event) => {
 		const modalContent = event.target.closest('.modal__inner')
 
