@@ -40,10 +40,6 @@ const time = () => {
 		secondsBlock.textContent = fSeconds
 		secondsBlock.nextElementSibling.textContent = numWord(seconds, ['секунда', 'секунды', 'секунд'])
 
-
-
-
-
 		if (timeRemaining <= 0) {
 			clearInterval(interval)
 			daysBlock.textContent = '00'
@@ -62,3 +58,4 @@ const time = () => {
 
 
 }
+time()
